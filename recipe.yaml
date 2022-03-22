@@ -73,7 +73,7 @@ tasks:
     dest: ./resources/EasyAdmin
 
   - action: download_github
-    src: https://github.com/thelindat/mdt
+    src: https://github.com/distritic/mdt
     ref: 0c804de3cd497d70d8ae76bf1699d76d4c9d94fc
     dest: ./resources/mdt
 
