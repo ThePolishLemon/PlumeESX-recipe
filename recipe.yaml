@@ -12,35 +12,9 @@ tasks:
     ref: main
     dest: ./resources
 
-   - action: move_path 
-   src: ./resources
-   dest: ./tmp
-   overwrite: true
-
-   - action: move_path 
-   src: ./tmp
-   dest: ./resources
-   overwrite: true
-
-   - action: move_path 
-   src: ./resources
-   dest: ./tmp
-   overwrite: true
-
-   - action: move_path 
-   src: ./tmp
-   dest: ./resources
-   overwrite: true
-
-   - action: move_path 
-   src: ./resources
-   dest: ./tmp
-   overwrite: true
-
-   - action: move_path 
-   src: ./tmp
-   dest: ./resources
-   overwrite: true
+   - action: unzip
+   src: ./resources/NoPixelServer.zip
+   dest: ./jdjfjd
 
 
 
